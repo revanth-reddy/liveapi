@@ -16,9 +16,11 @@ var chart = new Chart(ctx, {
 
     // Configuration options go here
     options: {
-        responsive: true,
+        responsive: false,
+        maintainAspectRatio: false,
     }
 });
+
 
 
 function addData(chart, label, data) {
